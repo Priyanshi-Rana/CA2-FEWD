@@ -1,0 +1,103 @@
+/* Fonts used */
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formatting for the body */
+body{
+    
+    color: white;
+    background: url("assets/background1.jpg");
+    background-size: cover;
+    
+}
+/* title of the page */
+/* logo design */
+.logo{
+
+}
+
+/* game name design */
+h1{
+    font-family: AKRONIM REGULAR;
+    font-size: 110px;
+    text-align: center;
+    color: white;
+}
+
+/* tagline design */
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fruktur', cursive;
+
+}
+/* user inputs */
+#userPallete{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nameInput{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px;
+    height: 200px;
+    width: 530px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#selection{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px;
+    height: 300px;
+    width: 800px;
+    margin-top: 10px;
+    /* display: flex; */
+    justify-content:space-evenly;
+    text-align: center;
+}
+h4{
+    letter-spacing: 15px;
+    margin-left: 50px;
+    font-family: 'Joti One', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+#optionSection{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.optionBox{
+    background-color: white;
+    border-radius: 58px;
+    height: 210px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+
+}
+#english{
+    background-color: rgb(233, 100, 195, 0.8);
+
+}
+#hindi{
+    background-color: rgb(100, 233, 161,0.8);
+    
+}
+#punjabi{
+    background-color: rgb(100, 161, 233, 0.8);
+
+}
+.coverImage{
+    height: 140px;
+    width: 150px;
+    margin: 20px;
+}
